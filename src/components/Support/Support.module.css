@@ -1,0 +1,136 @@
+.support {
+    padding: 3rem 5rem;
+    background-color: #F9F8FE;
+    font-family: var(--inter);
+    color: #191A15;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.left,
+.right {
+    flex: 1 1 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2em;
+
+}
+
+.left h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.left p {
+    color: #A6A6A6;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.ratings {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+
+.ratingItem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+
+.source {
+    margin-top: 1em;
+    color: #A6A6A6;
+    font-weight: 500;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.card>div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card p {
+    color: #A6A6A6;
+    font-weight: 500;
+    width: 90%;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .support {
+        padding: 3rem;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .left h2 {
+        font-size: 1.7rem;
+    }
+
+    .left p {
+        font-size: 1rem;
+    }
+
+    .ratings {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .ratingItem .stars {
+        width: 120px;
+    }
+
+    .stars img {
+        width: 100%;
+    }
+
+    .right {
+        margin-top: 1rem;
+    }
+
+    .card img {
+        width: 50px;
+    }
+
+    .card h3 {
+        font-size: 1.1rem;
+    }
+
+    .card p {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+}

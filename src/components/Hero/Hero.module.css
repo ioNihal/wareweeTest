@@ -1,0 +1,159 @@
+.hero {
+    height: auto;
+    width: 100%;
+    background-image:
+        radial-gradient(circle at -10% 30%,
+            rgba(82, 189, 169, 0.5) 0%,
+            transparent 30%),
+        radial-gradient(circle at 110% 60%,
+
+            rgba(82, 189, 169, 0.5) 0%,
+            transparent 30%);
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: var(--inter);
+}
+
+.container {
+    width: 85%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.heroHeading {
+    font-size: 4.3rem;
+    font-weight: 700;
+    line-height: 1.15em;
+}
+
+.subText {
+    font-weight: 500;
+    line-height: 1.2em;
+    width: 60%;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.trialBtn,
+.demoBtn {
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: transparent;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-family: inherit;
+}
+
+.trialBtn {
+    background-color: #54BD95;
+    color: #FFFFFF;
+}
+
+.demoBtn {
+    color: #191A15;
+    position: relative;
+    padding-left: 60px;
+}
+
+.demoBtn svg {
+    position: absolute;
+    top: 5px;
+    left: calc(40px - 20px);
+    width: 2rem;
+    aspect-ratio: 1/1;
+}
+
+.curvedLine {
+    width: 400px;
+    margin-bottom: 2em;
+}
+
+.imgWrapper {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgWrapper .heroImage {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .content,
+    .imgWrapper {
+        width: 100%;
+    }
+
+    .content {
+        margin-top: 2rem;
+        width: 80%;
+    }
+
+    .heroHeading {
+        font-size: 1.5rem;
+    }
+
+    .curvedLine {
+        width: 150px;
+    }
+
+    .subText {
+        width: 80%;
+        font-size: 0.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .actions {
+        gap: 0.5em;
+    }
+
+    .trialBtn,
+    .demoBtn {
+        padding: 10px 15px;
+        border-radius: 40px;
+        font-size: 1rem;
+    }
+
+    .demoBtn {
+        padding-left: 60px;
+    }
+
+    .demoBtn svg {
+        top: 0px;
+        left: calc(30px - 10px);
+        width: 1.7rem;
+    }
+
+}

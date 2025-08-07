@@ -1,0 +1,180 @@
+.footer {
+    padding: 2rem 5rem;
+    background-color: #161C28;
+    font-family: var(--inter);
+    color: #FFFFFF;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 4em;
+}
+
+.left {
+    width: 40%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.left h2 {
+    font-size: 3rem;
+    color: #54BD95;
+    font-weight: 600;
+}
+
+.left p {
+    color: #A6A6A6;
+    font-size: 1rem;
+}
+
+.inputWrapper {
+    margin-top: 1rem;
+    border-radius: 70px;
+    border: 2px solid #A6A6A6;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputWrapper:focus-within {
+    border-color: #54BD95;
+}
+
+.inputWrapper input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 15px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.inputWrapper button {
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #54BD95;
+    cursor: pointer;
+}
+
+.inputWrapper button:hover {
+    opacity: 0.9;
+}
+
+.right {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3em;
+}
+
+.list {
+    list-style: none;
+}
+
+.list h4 {
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.list li {
+    margin-top: 1em;
+    margin-bottom: 0.5rem;
+    color: #A6A6A6;
+    cursor: pointer;
+
+}
+
+.list li:hover {
+    text-decoration: underline;
+}
+
+.footerText {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerText span {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.footerText span:last-child:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 2rem;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .left {
+        width: 100%;
+        align-items: center;
+    }
+
+    .left h2 {
+        font-size: 2rem;
+    }
+
+    .left p {
+        font-size: 0.9rem;
+    }
+
+    .inputWrapper input {
+        font-size: 0.9rem;
+    }
+
+    .inputWrapper button {
+        padding: 6px;
+    }
+
+    .right {
+        margin-top: 1rem;
+        margin-left: 0;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    .list h4 {
+        font-size: 0.7rem;
+    }
+
+    .list li {
+       font-size: 0.6rem;
+
+    }
+
+    .footerText {
+        margin-top: 50px;
+        width: 100%;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .footerText span {
+        font-size: 0.5rem;
+    }
+}
