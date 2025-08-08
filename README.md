@@ -40,9 +40,9 @@ You can check out the deployed version here:
 
 
 
-I want to be honest about my process. At first, I didn’t know Tailwind CSS this deeply, but I had a solid understanding of regular CSS. So I decided to use CSS Modules with scoped styling to keep my code clean, readable, and well-organized.
+I want to be honest about my process. At first, I didn’t know Tailwind CSS this deeply, but I had a solid understanding of regular CSS. So I decided to use CSS Modules with scoped styling to keep my code clean, readable, and well organized.
 
-I also ran into some performance issues with SVGs. Some of them were huge—up to 12MB! I optimized them by converting to PNG (which brought them down to 900KB), and then further compressed them into WebP format, ending up with just 100KB. This significantly improved load time.
+I also ran into some performance issues with SVGs. Some of them were huge up to 12MB! I optimized them by converting to PNG (which brought them down to 900KB), and then further compressed them into WebP format, ending up with just 100KB. This significantly improved load time.
 
 You might be thinking I finished this pretty quickly and probably used AI to do it. That’s partly true. I did use ChatGPT to generate a base folder structure, which was pretty decent. But I made several custom tweaks to better fit my needs.
 
