@@ -5,7 +5,7 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/ioNihal/warewee-test.git
+   git clone https://github.com/ioNihal/wareweeTest.git
    cd warewee-test
    ```
 
@@ -36,7 +36,7 @@ You can check out the deployed version here:
 ## 🖼️ Preview
 
 ![Project Preview](./desktop.png)
-![Project Preview](./mobile.png) 
+![Project Preview](./mobile.jpg) 
 
 
 
