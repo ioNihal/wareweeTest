@@ -104,6 +104,40 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .heroHeading {
+        font-size: 2.5rem;
+    }
+
+    .curvedLine {
+        width: 250px;
+    }
+
+    .subText {
+        font-size: 0.9rem;
+    }
+
+    .actions {
+        gap: 0.7em;
+    }
+
+    .trialBtn,
+    .demoBtn {
+        padding: 8px 12px;
+    }
+
+    .demoBtn {
+        padding-left: 60px;
+    }
+
+    .demoBtn svg {
+        top: 0px;
+        left: calc(30px - 5px);
+        width: 1.7rem;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     .container {
         width: 90%;
@@ -142,7 +176,6 @@
     .trialBtn,
     .demoBtn {
         padding: 10px 15px;
-        border-radius: 40px;
         font-size: 1rem;
     }
 

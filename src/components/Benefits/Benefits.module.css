@@ -57,6 +57,18 @@
     width: 90%;
 }
 
+@media screen and (max-width: 1024px) {
+    .content h2 {
+        font-size: 1.5rem;
+    }
+
+    .listWrapper {
+        font-size: 0.9rem;
+    }
+
+
+}
+
 @media screen and (max-width: 768px) {
     .benefits {
         padding: 2rem;

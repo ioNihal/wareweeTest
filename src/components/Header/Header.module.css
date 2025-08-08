@@ -61,9 +61,35 @@
     color: #F8F8FA;
 }
 
-@media screen and (max-width: 768px) {
-    .navbar ul, .actions {
-        display: none;
+
+@media screen and (max-width: 1024px) {
+
+    .header h1 {
+        font-size: 2rem;
     }
+
+
+    .navbar ul {
+        gap: 1.5em;
+    }
+
+    .loginBtn,
+    .signupBtn {
+        padding: 8px;
+
+    }
+
+
 }
 
+@media screen and (max-width: 768px) {
+
+    .navbar ul,
+    .actions {
+        display: none;
+    }
+
+    .header {
+        padding: 1rem 0;
+    }
+}

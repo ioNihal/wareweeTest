@@ -86,9 +86,37 @@
     font-size: 1.1rem;
 }
 
+@media screen and (max-width: 1024px) {
+    .left h2 {
+        font-size: 2rem;
+    }
+
+    .ratingItem .stars {
+        width: 100px;
+    }
+
+    .stars img {
+        width: 100%;
+    }
+
+    .left p {
+        font-size: 0.9rem;
+    }
+
+    .card img {
+        width: 60px;
+    }
+
+    .card p {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     .support {
-        padding: 3rem;
+        padding: 2rem;
     }
 
     .container {

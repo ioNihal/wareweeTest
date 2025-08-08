@@ -184,6 +184,52 @@
     background-color: #54BD95;
 }
 
+
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        width: 100%;
+        font-size: 0.7rem;
+    }
+
+    .price {
+        margin: 1rem 0;
+    }
+
+    .price span {
+        font-size: 0.8rem;
+    }
+
+    .extra {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+    }
+
+    .card {
+        padding: 10px;
+        max-width: none;
+        width: calc(100% - 20px);
+        min-width: 200px;
+    }
+
+    .features {
+        gap: 0.5em;
+        padding: 6px;
+    }
+
+    .features li {
+        font-size: 0.7rem;
+    }
+
+    .button {
+        padding: 6px 10px;
+
+    }
+}
+
 @media screen and (max-width: 768px) {
     .pricing {
         padding: 2rem;
@@ -240,9 +286,25 @@
         font-size: 0.8rem;
     }
 
-  
+
     .extra {
         font-size: 0.9rem;
         padding: 6px 10px;
     }
+
+
+    .features {
+        gap: 1em;
+        padding: 15px;
+    }
+
+    .features li {
+        font-size: 0.9rem;
+    }
+
+    .button {
+        padding: 15px;
+
+    }
+
 }

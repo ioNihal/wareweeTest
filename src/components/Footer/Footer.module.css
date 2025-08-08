@@ -119,6 +119,36 @@
 }
 
 
+@media screen and (max-width: 1024px) {
+    .left h2 {
+        font-size: 2rem;
+    }
+
+    .list h4 {
+        font-size: 0.8rem;
+    }
+
+    .list li {
+        font-size: 0.7rem;
+
+    }
+    .right {
+        gap: 2em;
+    }
+
+    .inputWrapper input {
+        font-size: 0.9rem;
+    }
+
+    .inputWrapper button {
+        padding: 6px;
+    }
+
+     .footerText span {
+        font-size: 0.7rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .footer {
         padding: 2rem;
@@ -163,7 +193,7 @@
     }
 
     .list li {
-       font-size: 0.6rem;
+        font-size: 0.6rem;
 
     }
 
@@ -171,7 +201,7 @@
         margin-top: 50px;
         width: 100%;
         flex-direction: column;
-        gap: 0.5em;
+        gap: 0.50em;
     }
 
     .footerText span {
