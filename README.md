@@ -1,12 +1,12 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I want to be honest about my process. At first, I didn’t know Tailwind CSS this deeply, but I had a solid understanding of regular CSS. So I decided to use CSS Modules with scoped styling to keep my code clean, readable, and well-organized.
 
-Currently, two official plugins are available:
+I also ran into some performance issues with SVGs. Some of them were huge—up to 12MB! I optimized them by converting to PNG (which brought them down to 900KB), and then further compressed them into WebP format, ending up with just 100KB. This significantly improved load time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You might be thinking I finished this pretty quickly and probably used AI to do it. That’s partly true. I did use ChatGPT to generate a base folder structure, which was pretty decent. But I made several custom tweaks to better fit my needs.
 
-## Expanding the ESLint configuration
+Midway through, I had to go to the hospital and wasn’t sure when I’d return. So I quickly made sure the mobile nav was at least hidden, though I didn’t have time to add a proper hamburger menu or complete the drawer navigation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I initially used ChatGPT to build the drawer component too, but the result wasn’t great. I ended up rewriting most of it. That’s why you might notice some class names that look “too perfect” or the use of aria-labels—it came from AI-generated suggestions that I refined. There's also an unused ref I forgot to remove, which I’ll clean up later. As of now, I’m literally writing this README from the hospital.
+
+Lastly, about Tailwind CSS: Instead of slowing myself down learning something new under time pressure, I chose to go with what I already knew well. And honestly, I think that was the most efficient choice.
