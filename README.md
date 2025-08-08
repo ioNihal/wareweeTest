@@ -33,12 +33,6 @@ You can check out the deployed version here:
 
 ---
 
-## 🖼️ Preview
-
-![Project Preview](./desktop.png)
-![Project Preview](./mobile.jpg) 
-
-
 
 I want to be honest about my process. At first, I didn’t know Tailwind CSS this deeply, but I had a solid understanding of regular CSS. So I decided to use CSS Modules with scoped styling to keep my code clean, readable, and well organized.
 
