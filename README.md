@@ -1,3 +1,44 @@
+## 🚀 Getting Started
+
+### 📦 Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/ioNihal/warewee-test.git
+   cd warewee-test
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit:  
+   [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🌐 Live Preview
+
+You can check out the deployed version here:  
+**🔗 [Live Site](https://warewee-test.vercel.app)**
+
+---
+
+## 🖼️ Preview
+
+![Project Preview](./desktop.png)
+![Project Preview](./mobile.png) 
+
+
 
 I want to be honest about my process. At first, I didn’t know Tailwind CSS this deeply, but I had a solid understanding of regular CSS. So I decided to use CSS Modules with scoped styling to keep my code clean, readable, and well-organized.
 
