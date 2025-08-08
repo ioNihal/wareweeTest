@@ -48,6 +48,6 @@ You might be thinking I finished this pretty quickly and probably used AI to do 
 
 Midway through, I had to go to the hospital and wasn’t sure when I’d return. So I quickly made sure the mobile nav was at least hidden, though I didn’t have time to add a proper hamburger menu or complete the drawer navigation.
 
-I initially used ChatGPT to build the drawer component too, but the result wasn’t great. I ended up rewriting most of it. That’s why you might notice some class names that look “too perfect” or the use of aria-labels—it came from AI-generated suggestions that I refined. There's also an unused ref I forgot to remove, which I’ll clean up later. As of now, I’m literally writing this README from the hospital.
+I initially used ChatGPT to build the drawer component too, but the result wasn’t great. I ended up rewriting most of it. That’s why you might notice some class names that look “too perfect” or the use of aria-labels it came from AI-generated suggestions that I refined. There's also an unused ref I forgot to remove, which I’ll clean up later. As of now, I’m literally writing this README from the hospital.
 
 Lastly, about Tailwind CSS: Instead of slowing myself down learning something new under time pressure, I chose to go with what I already knew well. And honestly, I think that was the most efficient choice.
