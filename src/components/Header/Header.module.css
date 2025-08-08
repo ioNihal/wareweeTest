@@ -61,6 +61,124 @@
     color: #F8F8FA;
 }
 
+.hamburger {
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.hamburger:hover {
+    transform: scale(1.1);
+}
+
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0);
+    pointer-events: none;
+    transition: background-color 220ms ease;
+    z-index: 20;
+}
+
+.overlayVisible {
+    background-color: rgba(0, 0, 0, 0.16);
+    backdrop-filter: blur(3px);
+    pointer-events: auto;
+}
+
+
+.drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    max-width: 280px;
+    height: 100vh;
+    background: #fff;
+    box-shadow: -12px 0 30px rgba(0, 0, 0, 0.12);
+    transform: translateX(100%);
+    transition: transform 300ms ease;
+    z-index: 25;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.drawerOpen {
+    transform: translateX(0);
+}
+
+
+.drawerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.drawerTitle {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.closeBtn {
+    background: transparent;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 0.25rem;
+    transition: transform 0.3s ease;
+}
+
+.closeBtn:hover {
+    transform: scale(1.1);
+}
+
+
+.drawerNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+.drawerLink {
+    display: inline-block;
+    padding: 0.75rem 0.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #111;
+    font-size: 1rem;
+}
+
+.drawerActions {
+    margin-top: 1.25rem;
+    display: flex;
+    gap: 0.6rem;
+    flex-direction: column;
+}
+
+.drawerActions button:first-child {
+    border: 1px solid #54BD95;
+    color: #111;
+}
+
+.drawerActions button:hover {
+    opacity: 0.9;
+}
+
+
 
 @media screen and (max-width: 1024px) {
 
@@ -91,5 +209,9 @@
 
     .header {
         padding: 1rem 0;
+    }
+
+    .hamburger {
+        display: inline-flex;
     }
 }
