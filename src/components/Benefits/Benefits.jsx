@@ -1,5 +1,5 @@
 import styles from './Benefits.module.css';
-import BenefitsCard from '../../assets/benefitsCard.svg';
+import BenefitsCard from '../../assets/benefitsCard.png';
 import GreenTick from '../../assets/greenTick.svg';
 
 export default function Benefits() {

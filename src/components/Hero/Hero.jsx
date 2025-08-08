@@ -1,7 +1,7 @@
 import Header from '../Header/Header';
 import Stats from '../Stats/Stats';
 import styles from './Hero.module.css';
-import heroCard from '../../assets/hero.svg';
+import heroCard from '../../assets/hero.png';
 import curvedLine from '../../assets/curvedLine.svg';
 
 export default function Hero() {

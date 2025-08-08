@@ -1,8 +1,8 @@
 import styles from './Testimonials.module.css';
-import avatarOne from '../../assets/avatar01.svg'
-import avatarTwo from '../../assets/avatar02.svg'
-import avatarThree from '../../assets/avatar03.svg'
-import avatarFour from '../../assets/avatar04.svg'
+import avatarOne from '../../assets/avatar01.png'
+import avatarTwo from '../../assets/avatar02.png'
+import avatarThree from '../../assets/avatar03.png'
+import avatarFour from '../../assets/avatar04.png'
 import avatarFive from '../../assets/avatar05.svg'
 
 const avatars = [avatarOne, avatarTwo, avatarThree, avatarFour, avatarFive];
