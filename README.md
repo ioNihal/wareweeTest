@@ -45,3 +45,10 @@ Midway through, I had to go to the hospital and wasn’t sure when I’d return.
 I initially used ChatGPT to build the drawer component too, but the result wasn’t great. I ended up rewriting most of it. That’s why you might notice some class names that look “too perfect” or the use of aria-labels it came from AI-generated suggestions that I refined. There's also an unused ref I forgot to remove, which I’ll clean up later. As of now, I’m literally writing this README from the hospital.
 
 Lastly, about Tailwind CSS: Instead of slowing myself down learning something new under time pressure, I chose to go with what I already knew well. And honestly, I think that was the most efficient choice.
+
+
+### What i would do if i had more time?
+
+- Implement simple catchy animations/transitions
+- Add more interactivity for user engagement
+

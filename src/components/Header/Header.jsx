@@ -1,11 +1,11 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import styles from './Header.module.css';
 import hamburger from '../../assets/hamburger.svg';
 
 export default function Header() {
 
     const [open, setOpen] = useState(false);
-    const firstLinkRef = useRef(null);
+   
     return (
         <header className={styles.header}>
             <h1>Biccas</h1>
@@ -47,19 +47,19 @@ export default function Header() {
                 <nav className={styles.drawerNav}>
                     <ul>
                         <li>
-                            <a href="#home" ref={firstLinkRef} className={styles.drawerLink} onClick={() => setOpen(false)}>Home</a>
+                            <a href="#" className={styles.drawerLink} onClick={() => setOpen(false)}>Home</a>
                         </li>
                         <li>
-                            <a href="#product" className={styles.drawerLink} onClick={() => setOpen(false)}>Product</a>
+                            <a href="#" className={styles.drawerLink} onClick={() => setOpen(false)}>Product</a>
                         </li>
                         <li>
-                            <a href="#faq" className={styles.drawerLink} onClick={() => setOpen(false)}>FAQ</a>
+                            <a href="#" className={styles.drawerLink} onClick={() => setOpen(false)}>FAQ</a>
                         </li>
                         <li>
-                            <a href="#blog" className={styles.drawerLink} onClick={() => setOpen(false)}>Blog</a>
+                            <a href="#" className={styles.drawerLink} onClick={() => setOpen(false)}>Blog</a>
                         </li>
                         <li>
-                            <a href="#about" className={styles.drawerLink} onClick={() => setOpen(false)}>About Us</a>
+                            <a href="#" className={styles.drawerLink} onClick={() => setOpen(false)}>About Us</a>
                         </li>
                     </ul>
 
